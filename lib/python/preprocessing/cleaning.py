@@ -1,4 +1,6 @@
 import pandas as pd
 
-def fillna_with_0(df):
-    return df.fillna(0)
+def clean_weather(df, columns):
+    for c in columns:
+        df[c].replace(["M", "T"], [0, 0.0001], inplace=True)
+    return df
