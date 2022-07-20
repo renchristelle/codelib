@@ -1,3 +1,5 @@
+import pandas as pd
+
 def clean_df(df):
     y = df['y']
     X = df.drop('y', axis=1)
