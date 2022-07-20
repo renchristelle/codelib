@@ -1,5 +1,3 @@
-import pandas as pd
-
 month_dic = {
     'apr': 5,
     'aug': 8,
