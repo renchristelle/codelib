@@ -15,7 +15,7 @@ month_dic = {
     'sep': 9}
 
 def clean_df(df):
-    y = df['y']
+    y = df['y'].replace({"no": 0, "yes": 1})
     X = df.drop('y', axis=1)
     
     job_df = pd.get_dummies(df.job, prefix='job')
