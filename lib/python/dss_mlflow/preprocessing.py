@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 
 def clean_df(df):
     y = df['y']
