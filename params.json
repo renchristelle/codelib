@@ -8,6 +8,7 @@
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
+  "hasSetupSection": false,
   "owner": "admin",
   "permissionsVersion": "V2",
   "permissions": [],
@@ -22,6 +23,7 @@
       "zonesGraphConnectZones": true
     },
     "gitCommitMode": "AUTO",
+    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
@@ -32,6 +34,9 @@
       "mergeSqlPipelines": false,
       "pruneBeforeSqlPipelines": true
     },
+    "sharingRequestsEnabled": "INHERIT",
+    "limitedVisibilityEnabled": "INHERIT",
+    "accessRequestsEnabled": "INHERIT",
     "limitsSettings": {
       "memSampleBytes": {
         "soft": -1,
@@ -181,6 +186,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1668507966642
   },
   "creationTag": {
     "versionNumber": 0,
