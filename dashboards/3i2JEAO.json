@@ -1,0 +1,57 @@
+{
+  "pages": [
+    {
+      "id": "ccQ9tMF",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 10,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "CONTRIBUTION_CHARTS",
+              "summaryChart": "commits",
+              "timeSpan": "year",
+              "contributorsChart": "removed"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "iC8mJYV",
+            "insightType": "project_activity",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "admin",
+  "listed": true,
+  "name": "Master code\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1669122644704
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1654790095322
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
